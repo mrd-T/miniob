@@ -356,6 +356,8 @@ RC ExpressionBinder::bind_arithmetic_expression(
   return RC::SUCCESS;
 }
 
+
+
 RC check_aggregate_expression(AggregateExpr &expression)
 {
   // 必须有一个子表达式
