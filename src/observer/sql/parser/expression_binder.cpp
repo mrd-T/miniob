@@ -356,7 +356,7 @@ RC ExpressionBinder::bind_arithmetic_expression(
   return RC::SUCCESS;
 }
 
-
+// This is group by
 
 RC check_aggregate_expression(AggregateExpr &expression)
 {
